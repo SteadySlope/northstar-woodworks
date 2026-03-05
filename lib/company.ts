@@ -1,0 +1,41 @@
+export const company = {
+  name: "Northstar Woodworks",
+  tagline: "Crafted by Heritage, Built to Last",
+  phone: "(719) 398-3955",
+  phoneRaw: "+17193983955",
+  email: "amconstruction959@gmail.com",
+  address: {
+    street: "1160 Tule Dr",
+    city: "Hyrum",
+    state: "UT",
+    zip: "84319",
+    full: "1160 Tule Dr, Hyrum, UT 84319",
+  },
+  founded: 2025,
+  serviceArea: "Utah and surrounding states",
+  hours: {
+    weekdays: "Monday - Friday: 8:00 AM - 5:00 PM",
+    weekends: "Saturday - Sunday: Closed",
+  },
+  social: {
+    facebook: "",
+    instagram: "",
+    google: "",
+  },
+  stats: {
+    yearsExperience: 16,
+    familyLegacy: 40,
+    warrantyYears: 5,
+  },
+  values: [
+    "Customer Satisfaction",
+    "Quality Above All Else",
+    "Heritage Craftsmanship",
+    "Honesty & Integrity",
+  ],
+  usp: "Second-generation craftsman with Amish background. 16 years of personal experience backed by over 40 years of family legacy in the furniture industry.",
+  warranty: "5-year warranty on all furniture",
+  discounts: ["Military discount available"],
+  payment: ["ACH", "Credit Card"],
+  licensedBondedInsured: true,
+} as const;
