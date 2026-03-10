@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { Menu, Phone, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -20,12 +21,22 @@ export function Header() {
         <div className="flex h-[72px] items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <span className="font-heading text-xl md:text-2xl font-bold text-charcoal">
-              Northstar
-            </span>
-            <span className="font-heading text-xl md:text-2xl font-bold text-copper">
-              Woodworks
-            </span>
+            <Image
+              src="/photos/IMG_0433.JPG"
+              alt="Northstar Woodworks"
+              width={48}
+              height={48}
+              className="h-10 w-10 md:h-12 md:w-12 object-contain"
+              priority
+            />
+            <div className="flex flex-col leading-tight">
+              <span className="font-heading text-base md:text-lg font-bold text-charcoal">
+                Northstar
+              </span>
+              <span className="font-heading text-base md:text-lg font-bold text-copper -mt-1">
+                Woodworks
+              </span>
+            </div>
           </Link>
 
           {/* Desktop Nav */}

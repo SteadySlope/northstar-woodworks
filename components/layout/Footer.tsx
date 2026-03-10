@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
 import { company } from "@/lib/company";
 import { footerNav } from "@/lib/navigation";
@@ -41,13 +42,22 @@ export function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           {/* Brand */}
           <div>
-            <Link href="/" className="inline-block mb-4">
-              <span className="font-heading text-xl font-bold text-white">
-                Northstar{" "}
-              </span>
-              <span className="font-heading text-xl font-bold text-copper">
-                Woodworks
-              </span>
+            <Link href="/" className="inline-flex items-center gap-2 mb-4">
+              <Image
+                src="/photos/IMG_0433.JPG"
+                alt="Northstar Woodworks"
+                width={40}
+                height={40}
+                className="h-10 w-10 object-contain brightness-110"
+              />
+              <div className="flex flex-col leading-tight">
+                <span className="font-heading text-base font-bold text-white">
+                  Northstar
+                </span>
+                <span className="font-heading text-base font-bold text-copper -mt-1">
+                  Woodworks
+                </span>
+              </div>
             </Link>
             <p className="text-white/60 text-sm leading-relaxed">
               {company.tagline}. Second-generation craftsmanship with Amish heritage,

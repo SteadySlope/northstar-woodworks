@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { Armchair, Hammer, BookOpen, RefreshCw, TreePine, Ruler, Wrench } from "lucide-react";
 import { Hero } from "@/components/sections/Hero";
 import { ServiceCard } from "@/components/sections/ServiceCard";
@@ -109,21 +110,32 @@ export default function ServicesPage() {
       {/* How We Work */}
       <section className="py-16 md:py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-charcoal mb-6">
-              Backed by {company.stats.familyLegacy}+ Years of Family Tradition
-            </h2>
-            <p className="text-warm-gray text-lg leading-relaxed mb-4">
-              When you choose {company.name}, you get more than a woodworker &mdash; you get a
-              second-generation craftsman whose family has been building furniture for over four
-              decades. Our Amish heritage instilled values of patience, precision, and
-              uncompromising quality that show in every piece we create.
-            </p>
-            <p className="text-warm-gray text-lg leading-relaxed">
-              Every project comes with our {company.warranty} and
-              the peace of mind that comes from working with a licensed, bonded, and insured
-              professional.
-            </p>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-charcoal mb-6">
+                Backed by {company.stats.familyLegacy}+ Years of Family Tradition
+              </h2>
+              <p className="text-warm-gray text-lg leading-relaxed mb-4">
+                When you choose {company.name}, you get more than a woodworker &mdash; you get a
+                second-generation craftsman whose family has been building furniture for over four
+                decades. Our Amish heritage instilled values of patience, precision, and
+                uncompromising quality that show in every piece we create.
+              </p>
+              <p className="text-warm-gray text-lg leading-relaxed">
+                Every project comes with our {company.warranty} and
+                the peace of mind that comes from working with a licensed, bonded, and insured
+                professional.
+              </p>
+            </div>
+            <div className="rounded-xl overflow-hidden">
+              <Image
+                src="/photos/IMG_0467.PNG"
+                alt="Complete custom bedroom furniture collection — bed frame, dresser with mirror, tall chest, and nightstands"
+                width={800}
+                height={450}
+                className="w-full h-auto object-cover"
+              />
+            </div>
           </div>
         </div>
       </section>

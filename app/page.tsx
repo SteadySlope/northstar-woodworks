@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { Armchair, Hammer, BookOpen, RefreshCw, Shield, TreePine, Award, Clock } from "lucide-react";
 import { Hero } from "@/components/sections/Hero";
 import { StatsBar } from "@/components/sections/StatsBar";
@@ -124,6 +125,58 @@ export default function HomePage() {
             <Button asChild variant="secondary">
               <Link href="/services">View All Services</Link>
             </Button>
+          </div>
+        </div>
+      </section>
+
+      {/* Featured Work */}
+      <section className="py-16 md:py-24 bg-charcoal text-white">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-copper mb-3">
+                Featured Work
+              </p>
+              <h2 className="text-white mb-6">Handcrafted for Your Home</h2>
+              <p className="text-white/70 leading-relaxed mb-6">
+                From dining sets built for family gatherings to bedroom furniture with
+                heirloom quality — every piece is crafted from solid hardwood with traditional
+                joinery techniques. No particle board, no shortcuts. Just honest craftsmanship
+                built to last for generations.
+              </p>
+              <Button asChild size="lg">
+                <Link href="/gallery">View More Projects</Link>
+              </Button>
+            </div>
+            <div className="grid grid-cols-2 gap-4">
+              <div className="col-span-2 rounded-xl overflow-hidden">
+                <Image
+                  src="/photos/IMG_0481.PNG"
+                  alt="Custom two-tone dining table with bench and ladder-back chairs"
+                  width={800}
+                  height={600}
+                  className="w-full h-auto object-cover"
+                />
+              </div>
+              <div className="rounded-xl overflow-hidden aspect-square">
+                <Image
+                  src="/photos/IMG_0462.JPG"
+                  alt="Handcrafted bedroom chest of drawers and nightstand in warm maple finish"
+                  width={400}
+                  height={400}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="rounded-xl overflow-hidden aspect-square">
+                <Image
+                  src="/photos/IMG_0476.JPG"
+                  alt="Quarter-sawn oak five-drawer chest with dark iron hardware"
+                  width={400}
+                  height={400}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </section>

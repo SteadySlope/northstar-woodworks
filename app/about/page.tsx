@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { Heart, Eye, Handshake, Gem, Award, Users, Clock, Shield } from "lucide-react";
+import Image from "next/image";
+import { Heart, Handshake, Gem, Award, Users, Clock, Shield } from "lucide-react";
 import { Hero } from "@/components/sections/Hero";
 import { StatsBar } from "@/components/sections/StatsBar";
 import { CTABanner } from "@/components/sections/CTABanner";
@@ -33,12 +34,14 @@ export default function AboutPage() {
       <section className="py-16 md:py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-            {/* Image placeholder */}
-            <div className="bg-stone rounded-xl aspect-[4/3] flex items-center justify-center">
-              <div className="text-center px-8">
-                <Eye className="h-12 w-12 text-copper mx-auto mb-3" />
-                <p className="text-warm-gray text-sm">Workshop Photo</p>
-              </div>
+            <div className="rounded-xl overflow-hidden aspect-[4/3]">
+              <Image
+                src="/photos/IMG_0505.JPG"
+                alt="Northstar Woodworks bedroom showroom — complete handcrafted bedroom suite with bed, dresser, chest, and nightstands"
+                width={800}
+                height={600}
+                className="h-full w-full object-cover"
+              />
             </div>
 
             {/* Story content */}
