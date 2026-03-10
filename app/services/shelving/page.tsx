@@ -10,7 +10,7 @@ import { services } from "@/lib/services";
 const service = services.find((s) => s.slug === "shelving")!;
 
 export const metadata: Metadata = {
-  title: "Custom Shelving & Storage Solutions — Floating Shelves to Wall Units",
+  title: "Custom Shelving & Storage Solutions  - Floating Shelves to Wall Units",
   description:
     "Custom shelving and storage solutions handcrafted from premium hardwoods. Floating shelves, wall units, closet systems, and more. Northstar Woodworks, Hyrum, Utah.",
 };

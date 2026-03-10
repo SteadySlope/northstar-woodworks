@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -10,6 +11,7 @@ interface HeroProps {
   secondaryCtaText?: string;
   secondaryCtaHref?: string;
   fullHeight?: boolean;
+  backgroundImage?: string;
 }
 
 export function Hero({
@@ -20,6 +22,7 @@ export function Hero({
   secondaryCtaText,
   secondaryCtaHref,
   fullHeight = false,
+  backgroundImage,
 }: HeroProps) {
   return (
     <section
@@ -28,6 +31,18 @@ export function Hero({
         fullHeight ? "min-h-[85vh] flex items-center" : "py-20 md:py-28"
       )}
     >
+      {backgroundImage && (
+        <>
+          <Image
+            src={backgroundImage}
+            alt=""
+            fill
+            className="object-cover blur-[5px] scale-105"
+            priority
+          />
+          <div className="absolute inset-0 bg-black/60" />
+        </>
+      )}
       {/* Subtle grain texture overlay */}
       <div className="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_30%_50%,rgba(193,124,58,0.3),transparent_70%)]" />
 

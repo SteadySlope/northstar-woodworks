@@ -10,7 +10,7 @@ import { services } from "@/lib/services";
 const service = services.find((s) => s.slug === "custom-furniture")!;
 
 export const metadata: Metadata = {
-  title: "Custom Furniture — Handcrafted Tables, Beds & More",
+  title: "Custom Furniture  - Handcrafted Tables, Beds & More",
   description:
     "Handcrafted custom furniture built to your exact specifications. Dining tables, bed frames, desks, chairs, and more. Built with Amish heritage craftsmanship in Hyrum, Utah.",
 };
@@ -20,7 +20,7 @@ const steps = [
     number: 1,
     title: "Share Your Vision",
     description:
-      "Tell us about the piece you envision — dimensions, style, wood preferences, and how it will be used. We will discuss options and provide a detailed quote.",
+      "Tell us about the piece you envision  - dimensions, style, wood preferences, and how it will be used. We will discuss options and provide a detailed quote.",
   },
   {
     number: 2,

@@ -13,7 +13,7 @@ import { company } from "@/lib/company";
 import { services } from "@/lib/services";
 
 export const metadata: Metadata = {
-  title: "Northstar Woodworks — Premium Custom Furniture | Hyrum, Utah",
+  title: "Northstar Woodworks  - Premium Custom Furniture | Hyrum, Utah",
   description:
     "Handcrafted custom furniture by a second-generation craftsman with Amish heritage. 16 years experience, 5-year warranty. Serving Utah and surrounding states from Hyrum, UT.",
 };
@@ -28,7 +28,7 @@ const serviceIcons: Record<string, React.ReactNode> = {
 const testimonials = [
   {
     quote:
-      "We had a custom dining table built for our family and it is absolutely stunning. The craftsmanship is incredible — every joint, every detail is perfect. Our kids will inherit this table someday and it will still look beautiful.",
+      "We had a custom dining table built for our family and it is absolutely stunning. The craftsmanship is incredible  - every joint, every detail is perfect. Our kids will inherit this table someday and it will still look beautiful.",
     name: "Sarah & Mark Thompson",
     location: "Logan, Utah",
   },
@@ -40,7 +40,7 @@ const testimonials = [
   },
   {
     quote:
-      "I brought in my grandmother's rocking chair that was falling apart. They restored it beautifully — kept the character but made it solid and functional again. You can feel the respect they have for the craft.",
+      "I brought in my grandmother's rocking chair that was falling apart. They restored it beautifully  - kept the character but made it solid and functional again. You can feel the respect they have for the craft.",
     name: "Jennifer Olsen",
     location: "Hyrum, Utah",
   },
@@ -63,7 +63,7 @@ const uspPoints = [
     icon: <Award className="h-6 w-6" />,
     title: "Premium Materials Only",
     description:
-      "We source the finest hardwoods and use time-tested joinery techniques — no particle board, no shortcuts. Every material is chosen for beauty and lasting durability.",
+      "We source the finest hardwoods and use time-tested joinery techniques  - no particle board, no shortcuts. Every material is chosen for beauty and lasting durability.",
   },
   {
     icon: <Clock className="h-6 w-6" />,
@@ -78,11 +78,12 @@ export default function HomePage() {
     <>
       <Hero
         title="Handcrafted Furniture, Built to Last Generations"
-        subtitle="Second-generation craftsman with Amish heritage bringing over 40 years of family woodworking tradition to every custom piece. Based in Hyrum, Utah — serving families across the state and beyond."
+        subtitle="Second-generation craftsman with Amish heritage bringing over 40 years of family woodworking tradition to every custom piece. Based in Hyrum, Utah, serving families across the state and beyond."
         ctaText="Request a Consultation"
         ctaHref="/contact"
         secondaryCtaText="View Our Services"
         secondaryCtaHref="/services"
+        backgroundImage="/photos/IMG_2911.jpg"
         fullHeight
       />
 
@@ -140,7 +141,7 @@ export default function HomePage() {
               <h2 className="text-white mb-6">Handcrafted for Your Home</h2>
               <p className="text-white/70 leading-relaxed mb-6">
                 From dining sets built for family gatherings to bedroom furniture with
-                heirloom quality — every piece is crafted from solid hardwood with traditional
+                heirloom quality  - every piece is crafted from solid hardwood with traditional
                 joinery techniques. No particle board, no shortcuts. Just honest craftsmanship
                 built to last for generations.
               </p>
@@ -238,7 +239,7 @@ export default function HomePage() {
       <WaveDivider fillColor="#1C2127" />
       <CTABanner
         headline="Ready to Bring Your Vision to Life?"
-        description="Every great piece starts with a conversation. Tell us what you have in mind and we will craft something extraordinary — built to last for generations."
+        description="Every great piece starts with a conversation. Tell us what you have in mind and we will craft something extraordinary  - built to last for generations."
         ctaText="Start Your Project"
         ctaHref="/contact"
         variant="dark"

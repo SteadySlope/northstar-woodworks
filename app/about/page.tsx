@@ -8,9 +8,9 @@ import { WaveDivider } from "@/components/sections/WaveDivider";
 import { company } from "@/lib/company";
 
 export const metadata: Metadata = {
-  title: "About Us — Our Story & Heritage",
+  title: "About Us  - Our Story & Heritage",
   description:
-    "Learn about Northstar Woodworks — a second-generation craftsman with Amish heritage, 16 years of personal experience, and over 40 years of family legacy in premium woodworking.",
+    "Learn about Northstar Woodworks  - a second-generation craftsman with Amish heritage, 16 years of personal experience, and over 40 years of family legacy in premium woodworking.",
 };
 
 const valueIcons: Record<string, React.ReactNode> = {
@@ -37,7 +37,7 @@ export default function AboutPage() {
             <div className="rounded-xl overflow-hidden aspect-[4/3]">
               <Image
                 src="/photos/IMG_0505.JPG"
-                alt="Northstar Woodworks bedroom showroom — complete handcrafted bedroom suite with bed, dresser, chest, and nightstands"
+                alt="Northstar Woodworks bedroom showroom  - complete handcrafted bedroom suite with bed, dresser, chest, and nightstands"
                 width={800}
                 height={600}
                 className="h-full w-full object-cover"
@@ -55,7 +55,7 @@ export default function AboutPage() {
               <div className="space-y-4 text-warm-gray leading-relaxed">
                 <p>
                   The story of {company.name} begins not in a modern shop, but in the
-                  traditions of Amish craftsmanship &mdash; where furniture was built to serve
+                  traditions of Amish craftsmanship  - where furniture was built to serve
                   families for generations, not just years. Those values were passed down
                   through our family, and they remain the foundation of everything we build
                   today.
@@ -63,7 +63,7 @@ export default function AboutPage() {
                 <p>
                   As a second-generation woodworker, I grew up surrounded by sawdust and the
                   sound of hand tools shaping raw lumber into something lasting. My father
-                  taught me that a piece of furniture carries more than just function &mdash; it
+                  taught me that a piece of furniture carries more than just function  - it
                   carries the pride and care of the hands that built it. That lesson has
                   guided every project I have taken on over the past {company.stats.yearsExperience} years.
                 </p>
@@ -76,7 +76,7 @@ export default function AboutPage() {
                 </p>
                 <p>
                   Based in {company.address.city}, {company.address.state}, we serve families across{" "}
-                  {company.serviceArea} &mdash; bringing old-world craftsmanship to modern homes.
+                  {company.serviceArea}  - bringing old-world craftsmanship to modern homes.
                   Whether you need a custom dining table for holiday gatherings or heirloom
                   cabinetry for your kitchen, we approach every project with the same care
                   and dedication.
@@ -98,7 +98,7 @@ export default function AboutPage() {
             </p>
             <h2 className="text-charcoal mb-4">Our Core Values</h2>
             <p className="text-warm-gray text-lg max-w-2xl mx-auto">
-              These are not just words on a wall &mdash; they guide every decision we make and
+              These are not just words on a wall  - they guide every decision we make and
               every piece we build.
             </p>
           </div>
@@ -145,7 +145,7 @@ export default function AboutPage() {
             <h2 className="text-charcoal mb-6">Our Commitment to You</h2>
             <div className="space-y-4 text-warm-gray leading-relaxed">
               <p>
-                When you work with {company.name}, you are not just hiring a woodworker &mdash; you
+                When you work with {company.name}, you are not just hiring a woodworker  - you
                 are partnering with a craftsman who takes personal pride in every piece that
                 leaves our shop. We are fully licensed, bonded, and insured, and we back every
                 project with our {company.warranty}.

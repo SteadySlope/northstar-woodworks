@@ -10,7 +10,7 @@ import { services } from "@/lib/services";
 const service = services.find((s) => s.slug === "restoration")!;
 
 export const metadata: Metadata = {
-  title: "Furniture Restoration & Refinishing — Antiques & Heirlooms",
+  title: "Furniture Restoration & Refinishing  - Antiques & Heirlooms",
   description:
     "Expert furniture restoration and refinishing services. Antique repair, structural restoration, refinishing, and hardware replacement. Northstar Woodworks, Hyrum, Utah.",
 };
@@ -32,7 +32,7 @@ const steps = [
     number: 3,
     title: "Careful Restoration",
     description:
-      "We restore your piece with the respect it deserves — repairing joints, replacing damaged wood, stripping old finishes, and applying new ones that honor the original character.",
+      "We restore your piece with the respect it deserves  - repairing joints, replacing damaged wood, stripping old finishes, and applying new ones that honor the original character.",
   },
   {
     number: 4,
@@ -51,7 +51,7 @@ const faqs = [
   {
     question: "Is it worth restoring old furniture versus buying new?",
     answer:
-      "In most cases, yes — especially for pieces with sentimental value or solid wood construction. Older furniture was often built with higher quality materials and joinery than modern mass-produced pieces. Restoration gives it new life while preserving that superior craftsmanship.",
+      "In most cases, yes  - especially for pieces with sentimental value or solid wood construction. Older furniture was often built with higher quality materials and joinery than modern mass-produced pieces. Restoration gives it new life while preserving that superior craftsmanship.",
   },
   {
     question: "How long does a restoration project take?",

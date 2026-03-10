@@ -5,7 +5,7 @@ import { CTABanner } from "@/components/sections/CTABanner";
 import { WaveDivider } from "@/components/sections/WaveDivider";
 
 export const metadata: Metadata = {
-  title: "Gallery — Our Work",
+  title: "Gallery  - Our Work",
   description:
     "Browse our gallery of handcrafted custom furniture, cabinetry, shelving, and restoration projects by Northstar Woodworks in Hyrum, Utah.",
 };
@@ -13,19 +13,19 @@ export const metadata: Metadata = {
 const galleryItems = [
   {
     src: "/photos/IMG_0505.JPG",
-    alt: "Complete bedroom suite in showroom — bed frame, dresser with mirror, chest of drawers, and nightstands",
-    label: "Bedroom Suite — Showroom",
+    alt: "Complete bedroom suite in showroom  - bed frame, dresser with mirror, chest of drawers, and nightstands",
+    label: "Bedroom Suite  - Showroom",
     span: "sm:col-span-2",
   },
   {
     src: "/photos/IMG_0476.JPG",
-    alt: "Quarter-sawn oak five-drawer chest with dark iron knobs — front three-quarter view",
+    alt: "Quarter-sawn oak five-drawer chest with dark iron knobs  - front three-quarter view",
     label: "Quarter-Sawn Oak Chest",
     span: "",
   },
   {
     src: "/photos/IMG_0483.PNG",
-    alt: "Custom hardwood bed headboard — close-up showing horizontal plank detail and rich stain",
+    alt: "Custom hardwood bed headboard  - close-up showing horizontal plank detail and rich stain",
     label: "Bed Headboard Detail",
     span: "",
   },
@@ -37,55 +37,55 @@ const galleryItems = [
   },
   {
     src: "/photos/IMG_0437.PNG",
-    alt: "Oak chest of drawers with decorative arch side panels — front three-quarter view",
+    alt: "Oak chest of drawers with decorative arch side panels  - front three-quarter view",
     label: "Oak Chest of Drawers",
     span: "",
   },
   {
     src: "/photos/IMG_0462.JPG",
-    alt: "Bedroom chest and nightstand in warm maple finish with black iron hardware — styled with lamp",
+    alt: "Bedroom chest and nightstand in warm maple finish with black iron hardware  - styled with lamp",
     label: "Chest & Nightstand",
     span: "",
   },
   {
     src: "/photos/IMG_0467.PNG",
-    alt: "Complete bedroom furniture set — bed, dresser with mirror, tall chest, and two nightstands",
+    alt: "Complete bedroom furniture set  - bed, dresser with mirror, tall chest, and two nightstands",
     label: "Full Bedroom Collection",
     span: "sm:col-span-2",
   },
   {
     src: "/photos/IMG_0440.PNG",
-    alt: "Compact oak dresser with seven drawers — three-quarter angle showing wood grain detail",
+    alt: "Compact oak dresser with seven drawers  - three-quarter angle showing wood grain detail",
     label: "Compact Oak Dresser",
     span: "",
   },
   {
     src: "/photos/IMG_0477.JPG",
-    alt: "Tall storage cabinet shown closed and open — handcrafted with interior shelving",
+    alt: "Tall storage cabinet shown closed and open  - handcrafted with interior shelving",
     label: "Storage Cabinet",
     span: "",
   },
   {
     src: "/photos/IMG_2911.jpg",
-    alt: "Custom oak living room set — round coffee table with two matching end tables",
+    alt: "Custom oak living room set  - round coffee table with two matching end tables",
     label: "Living Room Table Set",
     span: "sm:col-span-2",
   },
   {
     src: "/photos/IMG_0466.PNG",
-    alt: "Five-drawer chest and single-drawer nightstand — clean studio shot on white background",
-    label: "Chest & Nightstand — Studio",
+    alt: "Five-drawer chest and single-drawer nightstand  - clean studio shot on white background",
+    label: "Chest & Nightstand  - Studio",
     span: "",
   },
   {
     src: "/photos/IMG_2960.jpg",
-    alt: "Round oak end table with tapered legs — styled with coffee mug showing wood grain",
+    alt: "Round oak end table with tapered legs  - styled with coffee mug showing wood grain",
     label: "Oak End Table",
     span: "",
   },
   {
     src: "/photos/IMG_0439.PNG",
-    alt: "Compact oak dresser with clean lines — front view showing natural wood grain",
+    alt: "Compact oak dresser with clean lines  - front view showing natural wood grain",
     label: "Small Oak Dresser",
     span: "",
   },
@@ -97,8 +97,8 @@ const galleryItems = [
   },
   {
     src: "/photos/IMG_0438.PNG",
-    alt: "Oak chest of drawers — side profile showing arch panel and dovetail construction",
-    label: "Chest — Side Detail",
+    alt: "Oak chest of drawers  - side profile showing arch panel and dovetail construction",
+    label: "Chest  - Side Detail",
     span: "",
   },
   {
@@ -109,8 +109,8 @@ const galleryItems = [
   },
   {
     src: "/photos/IMG_2951.jpg",
-    alt: "Round oak coffee table in living room setting with open book — lifestyle shot",
-    label: "Coffee Table — Lifestyle",
+    alt: "Round oak coffee table in living room setting with open book  - lifestyle shot",
+    label: "Coffee Table  - Lifestyle",
     span: "sm:col-span-2",
   },
 ];

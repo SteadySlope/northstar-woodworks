@@ -7,7 +7,7 @@ import { WaveDivider } from "@/components/sections/WaveDivider";
 import { company } from "@/lib/company";
 
 export const metadata: Metadata = {
-  title: "Our Process — From Consultation to Delivery",
+  title: "Our Process  - From Consultation to Delivery",
   description:
     "Learn how Northstar Woodworks takes your project from initial consultation through design, build, and delivery. Transparent process, no surprises.",
 };
@@ -43,22 +43,22 @@ const detailedSteps = [
   {
     icon: <MessageSquare className="h-8 w-8" />,
     title: "Step 1: Consultation",
-    description: `Every great piece of furniture starts with a great conversation. During your free consultation, we sit down with you to understand exactly what you need. We discuss the type of piece, dimensions, wood species, finish preferences, how it will be used, and where it will live in your home. We also talk budget openly — no pressure, no surprises. For cabinetry and built-in projects, we visit your space to take precise measurements. By the end of this step, you have a clear understanding of what we will build and what it will cost.`,
+    description: `Every great piece of furniture starts with a great conversation. During your free consultation, we sit down with you to understand exactly what you need. We discuss the type of piece, dimensions, wood species, finish preferences, how it will be used, and where it will live in your home. We also talk budget openly  - no pressure, no surprises. For cabinetry and built-in projects, we visit your space to take precise measurements. By the end of this step, you have a clear understanding of what we will build and what it will cost.`,
   },
   {
     icon: <PenTool className="h-8 w-8" />,
     title: "Step 2: Design",
-    description: `With your vision clear, we create detailed plans for your approval. This includes material selection — we help you choose the right wood species for your needs, whether that is the rich warmth of walnut, the classic beauty of oak, or the clean look of maple. We finalize every detail: dimensions, joinery methods, hardware, stain color, and finish type. Nothing moves forward until you are completely happy with the plan.`,
+    description: `With your vision clear, we create detailed plans for your approval. This includes material selection  - we help you choose the right wood species for your needs, whether that is the rich warmth of walnut, the classic beauty of oak, or the clean look of maple. We finalize every detail: dimensions, joinery methods, hardware, stain color, and finish type. Nothing moves forward until you are completely happy with the plan.`,
   },
   {
     icon: <Hammer className="h-8 w-8" />,
     title: "Step 3: Build",
-    description: `This is where decades of family craftsmanship come to life. Every piece is built by hand in our workshop using time-tested joinery techniques — mortise and tenon, dovetails, tongue and groove — the same methods that have made Amish furniture legendary for its durability. We do not cut corners or rush the process. Every joint is hand-fitted, every surface is sanded through multiple grits, and every finish is applied with patience. We send you progress updates so you can watch your piece take shape.`,
+    description: `This is where decades of family craftsmanship come to life. Every piece is built by hand in our workshop using time-tested joinery techniques  - mortise and tenon, dovetails, tongue and groove  - the same methods that have made Amish furniture legendary for its durability. We do not cut corners or rush the process. Every joint is hand-fitted, every surface is sanded through multiple grits, and every finish is applied with patience. We send you progress updates so you can watch your piece take shape.`,
   },
   {
     icon: <Truck className="h-8 w-8" />,
     title: "Step 4: Delivery",
-    description: `When your piece is complete, we handle delivery and installation personally. We do not trust your furniture to a third-party shipping company. We place it in your home, ensure it fits perfectly, and walk you through care instructions so your piece stays beautiful for generations. Every project is backed by our ${company.stats.warrantyYears}-year warranty. If anything is not right, we make it right — that is our promise.`,
+    description: `When your piece is complete, we handle delivery and installation personally. We do not trust your furniture to a third-party shipping company. We place it in your home, ensure it fits perfectly, and walk you through care instructions so your piece stays beautiful for generations. Every project is backed by our ${company.stats.warrantyYears}-year warranty. If anything is not right, we make it right  - that is our promise.`,
   },
 ];
 
@@ -67,7 +67,7 @@ export default function ProcessPage() {
     <>
       <Hero
         title="Our Process"
-        subtitle="From your first idea to the finished piece in your home — here is how we work together to create something extraordinary."
+        subtitle="From your first idea to the finished piece in your home  - here is how we work together to create something extraordinary."
         ctaText="Begin Your Consultation"
         ctaHref="/contact"
       />
@@ -114,7 +114,7 @@ export default function ProcessPage() {
       <WaveDivider fillColor="#1C2127" />
       <CTABanner
         headline="Begin Your Consultation"
-        description="The first step is always a conversation. Tell us what you have in mind — there is no obligation and no pressure."
+        description="The first step is always a conversation. Tell us what you have in mind  - there is no obligation and no pressure."
         ctaText="Get in Touch"
         ctaHref="/contact"
         variant="dark"

@@ -20,7 +20,7 @@ const dmSans = DM_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: "Northstar Woodworks — Premium Custom Furniture | Hyrum, Utah",
+    default: "Northstar Woodworks  - Premium Custom Furniture | Hyrum, Utah",
     template: "%s | Northstar Woodworks",
   },
   description:

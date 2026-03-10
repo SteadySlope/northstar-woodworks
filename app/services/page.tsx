@@ -9,7 +9,7 @@ import { company } from "@/lib/company";
 import { services } from "@/lib/services";
 
 export const metadata: Metadata = {
-  title: "Our Services — Custom Woodworking & Furniture",
+  title: "Our Services  - Custom Woodworking & Furniture",
   description:
     "Explore our full range of custom woodworking services: furniture, cabinetry, shelving, and restoration. Handcrafted with Amish heritage by Northstar Woodworks in Hyrum, Utah.",
 };
@@ -71,8 +71,8 @@ export default function ServicesPage() {
               </div>
               <h3 className="text-charcoal mb-3">Real Solid Hardwood</h3>
               <p className="text-warm-gray text-sm leading-relaxed">
-                No particle board, no veneer tricks. We build with genuine hardwoods &mdash; walnut,
-                oak, maple, cherry, and more &mdash; chosen for grain quality, strength, and beauty.
+                No particle board, no veneer tricks. We build with genuine hardwoods  - walnut,
+                oak, maple, cherry, and more  - chosen for grain quality, strength, and beauty.
                 These are materials that develop character with age rather than falling apart.
               </p>
             </div>
@@ -83,7 +83,7 @@ export default function ServicesPage() {
               </div>
               <h3 className="text-charcoal mb-3">Precision Joinery</h3>
               <p className="text-warm-gray text-sm leading-relaxed">
-                Mortise and tenon, dovetail, tongue and groove &mdash; we use traditional joinery
+                Mortise and tenon, dovetail, tongue and groove  - we use traditional joinery
                 techniques that have proven their strength over centuries. These time-honored
                 methods create bonds stronger than the wood itself, ensuring structural
                 integrity for decades.
@@ -97,7 +97,7 @@ export default function ServicesPage() {
               <h3 className="text-charcoal mb-3">Built to Your Specs</h3>
               <p className="text-warm-gray text-sm leading-relaxed">
                 Custom means custom. Every dimension, wood species, stain color, and design
-                detail is tailored to your needs. You are not choosing from a catalog &mdash; you
+                detail is tailored to your needs. You are not choosing from a catalog  - you
                 are collaborating with a craftsman to create something uniquely yours.
               </p>
             </div>
@@ -116,7 +116,7 @@ export default function ServicesPage() {
                 Backed by {company.stats.familyLegacy}+ Years of Family Tradition
               </h2>
               <p className="text-warm-gray text-lg leading-relaxed mb-4">
-                When you choose {company.name}, you get more than a woodworker &mdash; you get a
+                When you choose {company.name}, you get more than a woodworker  - you get a
                 second-generation craftsman whose family has been building furniture for over four
                 decades. Our Amish heritage instilled values of patience, precision, and
                 uncompromising quality that show in every piece we create.
@@ -130,7 +130,7 @@ export default function ServicesPage() {
             <div className="rounded-xl overflow-hidden">
               <Image
                 src="/photos/IMG_0467.PNG"
-                alt="Complete custom bedroom furniture collection — bed frame, dresser with mirror, tall chest, and nightstands"
+                alt="Complete custom bedroom furniture collection  - bed frame, dresser with mirror, tall chest, and nightstands"
                 width={800}
                 height={450}
                 className="w-full h-auto object-cover"
@@ -144,7 +144,7 @@ export default function ServicesPage() {
       <WaveDivider fillColor="#1C2127" />
       <CTABanner
         headline="Let Us Build Something Beautiful for You"
-        description="Tell us about your project and we will provide a detailed consultation — no obligation, no pressure."
+        description="Tell us about your project and we will provide a detailed consultation  - no obligation, no pressure."
         ctaText="Get a Free Consultation"
         ctaHref="/contact"
         variant="dark"

@@ -10,7 +10,7 @@ import { services } from "@/lib/services";
 const service = services.find((s) => s.slug === "cabinetry")!;
 
 export const metadata: Metadata = {
-  title: "Custom Cabinetry & Built-Ins — Kitchen, Bathroom & More",
+  title: "Custom Cabinetry & Built-Ins  - Kitchen, Bathroom & More",
   description:
     "Custom-built cabinetry for kitchens, bathrooms, and living spaces. Handcrafted with premium hardwoods by Northstar Woodworks in Hyrum, Utah. 5-year warranty.",
 };
