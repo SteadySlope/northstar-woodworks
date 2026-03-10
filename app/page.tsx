@@ -239,7 +239,7 @@ export default function HomePage() {
       <WaveDivider fillColor="#1C2127" />
       <CTABanner
         headline="Ready to Bring Your Vision to Life?"
-        description="Every great piece starts with a conversation. Tell us what you have in mind and we will craft something extraordinary  - built to last for generations."
+        description="Every great piece starts with a conversation. Tell us what you have in mind and we will craft something extraordinary - built to last for generations."
         ctaText="Start Your Project"
         ctaHref="/contact"
         variant="dark"
