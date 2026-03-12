@@ -105,7 +105,7 @@ export default function HomePage() {
             </p>
             <h2 className="text-charcoal mb-4">What We Build</h2>
             <p className="text-warm-gray text-lg">
-              From heirloom dining tables to custom kitchen cabinets, every piece is designed
+              From heirloom dining tables to custom cabinetry, every piece is designed
               and built to your exact specifications.
             </p>
           </div>

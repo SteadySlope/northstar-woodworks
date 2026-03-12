@@ -10,9 +10,9 @@ import { services } from "@/lib/services";
 const service = services.find((s) => s.slug === "cabinetry")!;
 
 export const metadata: Metadata = {
-  title: "Custom Cabinetry & Built-Ins  - Kitchen, Bathroom & More",
+  title: "Custom Cabinetry & Built-Ins  - Bathroom, Pantry & More",
   description:
-    "Custom-built cabinetry for kitchens, bathrooms, and living spaces. Handcrafted with premium hardwoods by Northstar Woodworks in Hyrum, Utah. 5-year warranty.",
+    "Custom-built cabinetry for bathrooms, pantries, and living spaces. Handcrafted with premium hardwoods by Northstar Woodworks in Hyrum, Utah. 5-year warranty.",
 };
 
 const steps = [
@@ -51,7 +51,7 @@ const faqs = [
   {
     question: "How long does a custom cabinetry project take?",
     answer:
-      "A typical kitchen cabinetry project takes 6 to 10 weeks from design approval to installation. Smaller projects like bathroom vanities or built-in bookshelves may take 3 to 6 weeks. We provide a specific timeline during your consultation.",
+      "A typical cabinetry project takes 6 to 10 weeks from design approval to installation. Smaller projects like bathroom vanities or built-in bookshelves may take 3 to 6 weeks. We provide a specific timeline during your consultation.",
   },
   {
     question: "Do you handle the installation?",
@@ -132,7 +132,7 @@ export default function CabinetryPage() {
       <WaveDivider fillColor="#1C2127" />
       <CTABanner
         headline="Transform Your Space with Custom Cabinetry"
-        description="From kitchen makeovers to built-in bookshelves, let us design and build cabinetry that fits your home perfectly."
+        description="From bathroom vanities to built-in bookshelves, let us design and build cabinetry that fits your home perfectly."
         ctaText={service.cta}
         ctaHref="/contact"
         variant="dark"

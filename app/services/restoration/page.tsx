@@ -10,9 +10,9 @@ import { services } from "@/lib/services";
 const service = services.find((s) => s.slug === "restoration")!;
 
 export const metadata: Metadata = {
-  title: "Furniture Restoration & Refinishing  - Antiques & Heirlooms",
+  title: "Furniture Restoration & Refinishing  - Heirlooms & Family Pieces",
   description:
-    "Expert furniture restoration and refinishing services. Antique repair, structural restoration, refinishing, and hardware replacement. Northstar Woodworks, Hyrum, Utah.",
+    "Expert furniture restoration and refinishing services. Structural restoration, surface refinishing, and hardware replacement. Northstar Woodworks, Hyrum, Utah.",
 };
 
 const steps = [

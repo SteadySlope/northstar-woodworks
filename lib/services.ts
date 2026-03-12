@@ -33,9 +33,8 @@ export const services: Service[] = [
     shortDescription:
       "Custom cabinetry for kitchens, bathrooms, and living spaces  - built to fit your home perfectly.",
     description:
-      "Off-the-shelf cabinets can never match the quality or fit of custom-built cabinetry. We design and build cabinets that maximize your space, match your style, and last for decades. From kitchen cabinets to bathroom vanities to built-in bookshelves, every piece is crafted with the same attention to detail our family has brought to woodworking for over 40 years.",
+      "Off-the-shelf cabinets can never match the quality or fit of custom-built cabinetry. We design and build cabinets that maximize your space, match your style, and last for decades. From bathroom vanities to built-in bookshelves to pantry systems, every piece is crafted with the same attention to detail our family has brought to woodworking for over 40 years.",
     features: [
-      "Kitchen cabinets",
       "Bathroom vanities",
       "Built-in bookshelves",
       "Entertainment centers",
@@ -56,7 +55,6 @@ export const services: Service[] = [
       "Floating shelves",
       "Wall-mounted units",
       "Closet systems",
-      "Garage storage",
       "Display shelving",
       "Pantry shelving",
     ],
@@ -67,11 +65,10 @@ export const services: Service[] = [
     slug: "restoration",
     title: "Restoration & Refinishing",
     shortDescription:
-      "Breathe new life into cherished furniture  - expert restoration and refinishing for antiques and heirlooms.",
+      "Breathe new life into cherished furniture  - expert restoration and refinishing for heirlooms and family pieces.",
     description:
       "Some pieces are worth saving. Whether it is a family heirloom, an antique find, or a beloved piece that has seen better days, our restoration services bring furniture back to its former glory. We repair structural damage, strip and refinish surfaces, replace hardware, and restore pieces with the respect they deserve.",
     features: [
-      "Antique restoration",
       "Surface refinishing",
       "Structural repair",
       "Hardware replacement",

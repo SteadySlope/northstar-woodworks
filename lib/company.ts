@@ -3,7 +3,7 @@ export const company = {
   tagline: "Crafted by Heritage, Built to Last",
   phone: "(719) 398-3955",
   phoneRaw: "+17193983955",
-  email: "amconstruction959@gmail.com",
+  email: "northstar@nsw27.com",
   address: {
     street: "1160 Tule Dr",
     city: "Hyrum",
